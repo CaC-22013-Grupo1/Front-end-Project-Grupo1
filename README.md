@@ -1,5 +1,6 @@
 # Front-end-Project Grupo 1 Comision 22013 Codo a Codo GO
 
+Importante: Instalar Formik. Ejecutar el comando npm install formik --save
 Url del proyecto:
 https://front-end-project-grupo1.vercel.app/
 
@@ -9,33 +10,33 @@ Firestore Utilizado para el sitio web.
 
 3 Collections:
 
- - pets:{
-age,
-description,
-id,
-images,
-likes,
-name,
-owner,
-surName
-}
+- pets:{
+  age,
+  description,
+  id,
+  images,
+  likes,
+  name,
+  owner,
+  surName
+  }
 
- - users:{
-id,
-id_UserPets,
-name,
-pets,
-photo
-}
+- users:{
+  id,
+  id_UserPets,
+  name,
+  pets,
+  photo
+  }
 
- - users_pets:{
-id,
-match,
-peopleLiked,
-peopleUnliked,
-petsLiked,
-petsUnliked,
-}
+- users_pets:{
+  id,
+  match,
+  peopleLiked,
+  peopleUnliked,
+  petsLiked,
+  petsUnliked,
+  }
 
 | Componente                                                                                                                                             | Miembro              | Status     |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- | ---------- |
@@ -58,7 +59,7 @@ petsUnliked,
 | Pets Component                                                                                                                                         | Eric Recke           | Completado |
 | People Component                                                                                                                                       | --                   | Pendiente  |
 | News Component                                                                                                                                         | --                   | Pendiente  |
-| Contact Component                                                                                                                                      | Daniel de Acha                | En desarrollo  |
+| Contact Component                                                                                                                                      | Daniel de Acha       | Completado |
 | ReStructure Components(Perfil-MyPets, pasarlos a variables reutilizables (los datos que se obtienen en firebase para reutilizar en otros componentes)) | Eric Recke           | Pendiente  |
 | Perfil- Add Pet (por ahora guarda 3 imagenes, hacerlo luego dinamico en un array) Component                                                            | Eric Recke           | Completado |
 | Firebase Component Mejoras, falta separarlo en componentes esta en el perfil de components                                                             | Eric Recke           | Completado |
@@ -66,7 +67,7 @@ petsUnliked,
 | Colections Firebase, Pets,Users,Users_Pets                                                                                                             | Eric Recke           | Completado |
 | Pets Component -> Obtener Mascotas de Firebase distintas al user                                                                                       | Eric Recke           | Completado |
 | Pets Component -> Dar Like o Dislike, guardar en pets y user_Pets                                                                                      | Eric Recke           | Completado |
-| Pets Component -> Filtrar tambien los que ya di like o dislike                                                                                         | Eric Recke           | En Curso   |
+| Pets Component -> Filtrar tambien los que ya di like o dislike                                                                                         | Eric Recke           | Completado |
 | Perfil Component -> Apartado de Me Gusta (Mis Mascotas)                                                                                                |                      | Pendiente  |
 | Perfil Component -> Apartado de Me Gusta (Personas)                                                                                                    |                      | Pendiente  |
 | Perfil Component -> Generar el Match                                                                                                                   |                      | Pendiente  |
